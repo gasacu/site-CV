@@ -6,10 +6,16 @@ body {
 
 .app-wrapper {
     display: flex;
+    flex-direction: column-reverse;
+    background-color: #fff;
+}
+@media (min-width: 1000px) { .app-wrapper { 
+    display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     margin: 40px auto;
     background-color: #fff;
+}
 }
 
 /* Sidebar Styles */
@@ -109,11 +115,13 @@ body {
 
 /* Main content Styles */
 .right-side-container {
+    padding: 80px 40px;
+}
+@media (min-width: 1000px) { .right-side-container { 
     padding-left: 88px;
     padding-top: 80px;
     padding-right: 40px;
-    padding-bottom: 180px;
-}
+    padding-bottom: 180px; }}
 
 .about-me-container {
     margin-top: 10px;
