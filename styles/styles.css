@@ -1,7 +1,7 @@
 /* Our App */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #e3e1df;
+    background-color: #ffffff;
 }
 
 .app-wrapper {
@@ -15,6 +15,7 @@ body {
     width: 1200px;
     margin: 40px auto;
     background-color: #fff;
+    box-shadow: rgba(11, 15, 18, 0.174) 0px 0px 16px;
 }
 }
 
